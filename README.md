@@ -29,7 +29,7 @@ Project of Hagen University
 ## 2、项目方案
 **总体框架图**  
 Django+D3+JS+CSS
-![image](https://github.com/cloudXia777/Medical-Visualization/master/image/总体框架图.png)
+![image](https://github.com/cloudXia777/Medical-Visualization/blob/master/image/%E6%80%BB%E4%BD%93%E6%A1%86%E6%9E%B6%E5%9B%BE.png)
 **方案设计**
 ## 3、实现细节
 3.1 开发环境    
