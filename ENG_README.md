@@ -91,13 +91,13 @@ nodes.forEach(function (o, i) {
 var drag = force.drag()
     .on("dragstart", function(d){
         d3.event.sourceEvent.stopPropagation();
-        d.fixed = false; //拖曳对象固定
+        d.fixed = false; // clicked node fixed
     })
     .on("dragend", function (d,i) {
-        d3.select(this).style("fill", color[d.group-1]); //变为原来的颜色
+        d3.select(this).style("fill", color[d.group-1]); // return original color
     })
     .on("drag", function (d) {
-        d3.select(this).style("fill", "yellow"); //拖曳过程中为黄色
+        d3.select(this).style("fill", "yellow"); // drag on with yellow.
         d3.select(this).attr("cx", d.x = d3.event.x)
                         .attr("cy", d.y = d3.event.y);
     });
